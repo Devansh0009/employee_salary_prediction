@@ -8,7 +8,7 @@ import joblib
 # ======================
 # 📌 2. Load files
 # ======================
-data = pd.read_csv("adult_encoded.csv")
+data = pd.read_csv("adult 3.csv")
 model = joblib.load("random_forest_model.pkl")
 encoders = joblib.load("label_encoders.pkl")
 scaler = joblib.load("scaler.pkl")
