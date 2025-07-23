@@ -8,7 +8,7 @@ import joblib
 # ======================
 # 📌 2. Load files
 # ======================
-data = pd.read_csv(r"C:\Users\verma\Downloads\adult_encoded.xls")
+data = pd.read_excel(r"C:\Users\verma\Downloads\adult_encoded.xls")
 model = joblib.load("random_forest_model.pkl")
 encoders = joblib.load("label_encoders.pkl")
 scaler = joblib.load("scaler.pkl")
